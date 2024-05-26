@@ -7,6 +7,7 @@ function loadIntoTeamModal(list) {
   const markup = list
     .map(member => {
       return `
+      
       <li class="member__card">
         <div class="member__thumb">        
             <img class="member__image" width='300' 
